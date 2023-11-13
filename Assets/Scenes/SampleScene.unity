@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 179646744}
   - component: {fileID: 179646743}
   - component: {fileID: 179646742}
-  - component: {fileID: 179646741}
+  - component: {fileID: 179646746}
   m_Layer: 0
   m_Name: Mark On Card 5
   m_TagString: Untagged
@@ -224,19 +224,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &179646741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179646740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e22329294adca21468a56816e6c7d09d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markActivated: 0
 --- !u!61 &179646742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -377,6 +364,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &179646746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179646740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871df30f45e0c1642a7c084d89e239e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markActivated: 0
 --- !u!1 &249112208
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,7 +546,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 249112208}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e22329294adca21468a56816e6c7d09d, type: 3}
+  m_Script: {fileID: 11500000, guid: 871df30f45e0c1642a7c084d89e239e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   markActivated: 0
@@ -696,7 +696,7 @@ GameObject:
   - component: {fileID: 265865564}
   - component: {fileID: 265865563}
   - component: {fileID: 265865562}
-  - component: {fileID: 265865561}
+  - component: {fileID: 265865566}
   m_Layer: 0
   m_Name: Mark On Card 3
   m_TagString: Untagged
@@ -704,19 +704,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &265865561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265865560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e22329294adca21468a56816e6c7d09d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markActivated: 0
 --- !u!61 &265865562
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -857,6 +844,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &265865566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265865560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871df30f45e0c1642a7c084d89e239e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markActivated: 0
 --- !u!1 &285327570
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,7 +963,7 @@ GameObject:
   - component: {fileID: 313429540}
   - component: {fileID: 313429539}
   - component: {fileID: 313429538}
-  - component: {fileID: 313429537}
+  - component: {fileID: 313429542}
   m_Layer: 0
   m_Name: Mark On Card 2
   m_TagString: Untagged
@@ -971,19 +971,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &313429537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313429536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e22329294adca21468a56816e6c7d09d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markActivated: 0
 --- !u!61 &313429538
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1124,6 +1111,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &313429542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313429536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871df30f45e0c1642a7c084d89e239e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markActivated: 0
 --- !u!1 &383133746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,7 +1396,7 @@ GameObject:
   - component: {fileID: 896785917}
   - component: {fileID: 896785916}
   - component: {fileID: 896785915}
-  - component: {fileID: 896785914}
+  - component: {fileID: 896785919}
   m_Layer: 0
   m_Name: Mark On Card 1
   m_TagString: Untagged
@@ -1404,19 +1404,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &896785914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896785913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e22329294adca21468a56816e6c7d09d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markActivated: 0
 --- !u!61 &896785915
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1557,6 +1544,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &896785919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896785913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871df30f45e0c1642a7c084d89e239e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markActivated: 0
 --- !u!1 &1031193202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,11 +1655,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ca83a85057b57428e11f6e73deb990, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Circle1: {fileID: 896785914}
-  Circle2: {fileID: 313429537}
-  Square1: {fileID: 265865561}
+  Circle1: {fileID: 896785919}
+  Circle2: {fileID: 313429542}
+  Square1: {fileID: 265865566}
   Square2: {fileID: 1783373719}
-  Triangle1: {fileID: 179646741}
+  Triangle1: {fileID: 179646746}
   Triangle2: {fileID: 249112213}
   Rnd1: 0
   Rnd2: 0
@@ -2142,7 +2142,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1783373714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e22329294adca21468a56816e6c7d09d, type: 3}
+  m_Script: {fileID: 11500000, guid: 871df30f45e0c1642a7c084d89e239e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   markActivated: 0
@@ -2327,14 +2327,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c7e667870121ee40b09a451882f5675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Circle1: {fileID: 896785914}
-  Circle2: {fileID: 313429537}
-  Square1: {fileID: 265865561}
+  Circle1: {fileID: 896785919}
+  Circle2: {fileID: 313429542}
+  Square1: {fileID: 265865566}
   Square2: {fileID: 1783373719}
-  Triangle1: {fileID: 179646741}
+  Triangle1: {fileID: 179646746}
   Triangle2: {fileID: 249112213}
   winTextTMP: {fileID: 251263053}
   winText: YOU WON!
+  resetText: 
 --- !u!4 &2052980051
 Transform:
   m_ObjectHideFlags: 0

@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class Shuffle : MonoBehaviour
 {
-    public CircleCard Circle1;
-    public CircleCard Circle2;
-    public CircleCard Square1;
-    public CircleCard Square2;
-    public CircleCard Triangle1;
-    public CircleCard Triangle2;
+    public CardMarkScript Circle1;
+    public CardMarkScript Circle2;
+    public CardMarkScript Square1;
+    public CardMarkScript Square2;
+    public CardMarkScript Triangle1;
+    public CardMarkScript Triangle2;
 
     public int Rnd1;
     public int Rnd2;
@@ -19,7 +19,7 @@ public class Shuffle : MonoBehaviour
     public int Rnd5;
     public int Rnd6;
 
-    List<CircleCard> MarkList = new List<CircleCard>();
+    List<CardMarkScript> MarkList = new List<CardMarkScript>();
 
     List<Vector2> locationList = new List<Vector2>();
 
@@ -30,10 +30,13 @@ public class Shuffle : MonoBehaviour
     Vector2 Location4 = new Vector2(-1, -2);
     Vector2 Location5 = new Vector2(1, -2);
 
-    Rigidbody2D cardMarks;
-
     private void OnMouseDown()
     {
+        for (int i = 0; i < MarkList.Count; ++i)
+        {
+            MarkList[i].gameObject.GetComponent<Renderer>().enabled = false;
+        }
+        
         Rnd1 = Random.Range(0, 6);
         Rnd2 = Random.Range(0, 6);
         Rnd3 = Random.Range(0, 6);
@@ -45,8 +48,6 @@ public class Shuffle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cardMarks = GetComponent<Rigidbody2D>();
-
         locationList.Add(Location0);
         locationList.Add(Location1);
         locationList.Add(Location2);

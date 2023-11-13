@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Timeline;
 
-public class CircleCard : MonoBehaviour
+public class CardMarkScript : MonoBehaviour
 {
     //Create bool markActivated equal to false, this will be used to check if the mark got activated, if it was not and the corresponding mark was not rendered true
     //Then it will be equal to true (markActivated), this will together with checkedActivation, activate the objects renderer to be equal to true and then deactivate both markActivate and CheckedActivation
@@ -11,12 +11,6 @@ public class CircleCard : MonoBehaviour
     public bool markActivated = false;
 
     bool checkedActivation = false;
-    
-    void Start()
-    {
-        //Wants to start the game with it "off"
-        //gameObject.GetComponent<Renderer>().enabled = false;
-    }
 
     private void OnMouseDown()
     {
@@ -49,4 +43,3 @@ public class CircleCard : MonoBehaviour
         }
     }
 }
-
